@@ -1,0 +1,32 @@
+aid: yes-no
+name: Yes No
+description: "Generate yes or no randomly"
+url: https://yesno.wtf/api
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Test Data"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Test Data
+  - Public APIs
+apis:
+  - name: Yes No
+    description: "Generate yes or no randomly"
+    humanURL: https://yesno.wtf/api
+    baseURL: https://yesno.wtf/api
+    tags:
+      - Test Data
+    properties:
+      - type: Documentation
+        url: https://yesno.wtf/api
+common:
+  - type: Website
+    url: https://yesno.wtf/api
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
