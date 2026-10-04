@@ -39,7 +39,6 @@ apis:
   - name: Yes No
     description: "Generate yes or no randomly"
     humanURL: https://yesno.wtf/api
-    baseURL: https://yesno.wtf/api
     tags:
       - Test Data
     properties:
